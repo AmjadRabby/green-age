@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Common class */
+
+.container {
+  width: 85% !important;
+  margin: auto !important;
+  /* padding: 0 15px; */
+}
+.d-flex {
+  display: flex;
+}
+.text-light {
+  color: gray;
+}
+.text-decoration-none {
+  text-decoration: none;
+}
+.border-right {
+  height: 40px;
+  border-right: 1px solid #5fa209;
+}
+.brand-color {
+  color: #5fa209;
+}
+.orange-title {
+  color: rgb(255, 72, 0);
+}
+.margin-right {
+  margin-right: 50px;
+}
+
+/* Website css */
+
+.header-logo {
+  padding: 15px;
+}
+.main-nav {
+  background: rgb(58, 58, 58);
+}
+.nav-menu {
+  list-style: none;
+}
+.nav-link {
+  padding: 5px 20px;
+  margin: 5px;
+}
+.nav-link img {
+  display: block;
+  margin: auto;
+  padding: 5px 0 0 0;
+}
+.search-box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.form-btn {
+  background-color: #5fa209;
+  padding: 3px 10px;
+  border: 1px solid black;
+}
+.form-btn img {
+  transform: rotate(-90deg);
+}
+.form-input {
+  background-color: gray;
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 3px;
+}
+.form-input::placeholder {
+  color: lightgrey;
+}
+.banner-container {
+  background-color: #5fa209;
+  padding: 20px;
+  border-bottom: 7px solid rgb(124, 123, 123);
+}
+.banner-img {
+  height: 50vh;
+  border-radius: 3px;
+  background-image: url(../images/banner.jpg);
+  position: relative;
+  
+
+}
+.banner-title {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.808);
+  color: lightgray;
+}
+
+.welcome-container {
+  padding: 20px 0;
+
+}
+h2 {
+  padding: 15px 0 15px 15px;
+}
+.box {
+  width: 50%;
+  padding: 25px 0;
+}
+
+.content-icon {
+  padding: 10px;
+}
+.body {
+  padding: 15px;
+  color: rgb(101, 101, 255);
+  line-height: 25px
+}
+.content-btn {
+  background-color: #5fa209;
+  padding: 2px 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  float: right;
+}
+.project-container img {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid lightgray;
+}
+.project-container h4 {
+  padding: 0 15px;
+}
+footer {
+  background: rgb(58, 58, 58);
+  padding: 15px 0;
+  text-align: center;
+}
